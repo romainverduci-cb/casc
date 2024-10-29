@@ -1,0 +1,12 @@
+---
+apiVersion: v1
+kind: flag-configuration
+
+flag: titleColorsSuborg
+
+enabled: false
+
+defaultValue: Blue
+
+conditions:
+  []

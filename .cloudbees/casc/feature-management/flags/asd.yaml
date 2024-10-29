@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: flag
+
+flag: asd
+flagType: boolean
+description: 
+labels:
+  -  all
+  -  me
+
+availableValues:
+
+isPermanent: false

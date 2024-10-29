@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: flag
+
+flag: corinne
+flagType: string
+description: 
+labels:
+  -  all
+  -  Hello
+
+availableValues:
+
+isPermanent: false

@@ -1,0 +1,20 @@
+---
+apiVersion: v1
+kind: target-group
+
+name: suborg
+
+description: changing description
+
+conditions:
+  allOf:
+    - property:
+        name: rox.app_release
+        operator: regex
+        operands:
+            - "1234"
+    - property:
+        name: rox.distinct_id
+        operator: regex
+        operands:
+            - abcd

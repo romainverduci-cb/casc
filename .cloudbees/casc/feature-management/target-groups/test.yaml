@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: target-group
+
+name: test
+
+description: asd
+
+conditions:
+  allOf:
+    - anyOf:
+        - group:
+            name: parent
