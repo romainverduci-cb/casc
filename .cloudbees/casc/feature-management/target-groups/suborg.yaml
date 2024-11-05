@@ -17,4 +17,4 @@ conditions:
         name: rox.distinct_id
         operator: regex
         operands:
-            - abcd
+            - abcde
