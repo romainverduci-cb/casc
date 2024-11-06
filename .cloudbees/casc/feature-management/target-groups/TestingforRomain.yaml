@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: target-group
+
+name: TestingforRomain
+
+description: Lets see what happen
+
+conditions:
+  allOf:
+    - property:
+        name: rox.distinct_id
+        operator: in-array
+        operands:
+            - "1234"
