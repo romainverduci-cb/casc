@@ -13,3 +13,8 @@ conditions:
         operator: regex
         operands:
             - "1234"
+    - property:
+        name: rox.now2
+        operator: after
+        operands:
+            - "2024-11-12T23:00:00.000Z"
