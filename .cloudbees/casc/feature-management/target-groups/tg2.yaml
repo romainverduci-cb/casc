@@ -4,7 +4,7 @@ kind: target-group
 
 name: tg2
 
-description: 
+description: add some description
 
 conditions:
   allOf:
