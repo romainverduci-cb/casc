@@ -1,0 +1,16 @@
+---
+apiVersion: v1
+kind: flag-configuration
+
+flag: corinne2
+
+enabled: false
+
+defaultValue: false
+
+conditions:
+  - allOf:
+      - anyOf:
+          - group:
+              name: tg1
+    flagValue: true
