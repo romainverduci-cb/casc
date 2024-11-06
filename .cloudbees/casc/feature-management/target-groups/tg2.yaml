@@ -13,3 +13,10 @@ conditions:
         operator: regex
         operands:
             - "1234"
+    - anyOf:
+        - group:
+            id: 83f5cc01-05cf-427d-561a-ed34f6655093
+        - group:
+            id: 3f140235-04c7-4593-78c5-4d0c61e337b3
+        - group:
+            id: d0e7ed70-0573-48ab-42b3-b36a59e825b2
