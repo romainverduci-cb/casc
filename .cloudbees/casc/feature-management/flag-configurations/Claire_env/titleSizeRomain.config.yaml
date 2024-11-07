@@ -6,7 +6,7 @@ flag: titleSizeRomain
 
 enabled: false
 
-defaultValue: 14
+defaultValue: 18
 
 conditions:
   []
