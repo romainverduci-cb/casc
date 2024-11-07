@@ -4,9 +4,9 @@ kind: flag-configuration
 
 flag: titleSizeRomain
 
-enabled: true
+enabled: false
 
-defaultValue: 18
+defaultValue: 14
 
 conditions:
   []
