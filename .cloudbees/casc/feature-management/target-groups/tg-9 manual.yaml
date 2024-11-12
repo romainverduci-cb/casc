@@ -1,0 +1,10 @@
+---
+apiVersion: v1
+kind: target-group
+
+name: tg-9 manual
+
+description: tg-9 description
+
+conditions:
+  anyOf: []
