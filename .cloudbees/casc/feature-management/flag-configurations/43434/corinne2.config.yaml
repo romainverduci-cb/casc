@@ -13,4 +13,4 @@ conditions:
       - anyOf:
           - group:
               name: tg1
-    flagValue: true
+    flagValue: false
