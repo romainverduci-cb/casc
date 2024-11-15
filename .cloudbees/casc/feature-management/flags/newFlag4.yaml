@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: flag
+
+flag: newFlag4
+flagType: string
+description: flag desc
+labels:
+  - str1
+  - str2
+  - str3
+
+availableValues:
+
+isPermanent: false
