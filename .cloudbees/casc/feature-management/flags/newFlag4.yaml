@@ -4,7 +4,7 @@ kind: flag
 
 flag: newFlag4
 flagType: string
-description: flag desc
+description: flag desc 1
 labels:
   - str1
   - str2
