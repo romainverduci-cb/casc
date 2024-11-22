@@ -1,0 +1,15 @@
+---
+apiVersion: v1
+kind: target-group
+
+name: tst-update
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: rox.app_release
+        operator: regex
+        operands:
+            - "23"
