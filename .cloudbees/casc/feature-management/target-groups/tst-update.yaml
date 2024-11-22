@@ -4,7 +4,7 @@ kind: target-group
 
 name: tst-update
 
-description: 
+description: asdasd
 
 conditions:
   allOf:
