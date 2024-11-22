@@ -1,0 +1,7 @@
+---
+apiVersion: v1
+kind: flag-properties
+
+name: test prop delete
+type: Boolean
+description: ""
