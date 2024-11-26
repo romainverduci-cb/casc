@@ -6,9 +6,9 @@ flag: corinne2
 
 enabled: false
 
-stickinessProperty: rox.screen_width
+stickinessProperty: rox.distinct_id
 
-defaultValue: false
+defaultValue: true
 
 conditions:
   - allOf:
