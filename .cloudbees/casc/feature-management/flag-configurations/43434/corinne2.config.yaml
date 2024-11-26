@@ -6,7 +6,7 @@ flag: corinne2
 
 enabled: false
 
-stickinessProperty: rox.distinct_id
+stickinessProperty: rox.screen_width
 
 defaultValue: false
 
