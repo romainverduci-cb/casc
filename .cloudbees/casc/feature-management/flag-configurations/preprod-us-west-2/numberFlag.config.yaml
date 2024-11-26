@@ -6,6 +6,8 @@ flag: numberFlag
 
 enabled: false
 
+stickinessProperty: rox.distinct_id
+
 defaultValue: 1
 
 conditions:
@@ -14,5 +16,5 @@ conditions:
           name: rox.app_release
           operator: in-array
           operands:
-              - "1"
+            - "1"
     flagValue: 2

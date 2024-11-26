@@ -6,6 +6,8 @@ flag: corinne2
 
 enabled: false
 
+stickinessProperty: rox.distinct_id
+
 defaultValue: false
 
 conditions:

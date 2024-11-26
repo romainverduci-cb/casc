@@ -8,5 +8,9 @@ description:
 labels:
 
 availableValues:
+  - White
+  - Blue
+  - Green
+  - Yellow2
 
 isPermanent: false

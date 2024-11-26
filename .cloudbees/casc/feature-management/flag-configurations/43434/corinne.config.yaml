@@ -6,7 +6,10 @@ flag: corinne
 
 enabled: false
 
-defaultValue: valueWrittenInCode: true
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  valueWrittenInCode: true
 
 conditions:
   - allOf:

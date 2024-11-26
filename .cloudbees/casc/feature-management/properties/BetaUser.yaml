@@ -1,0 +1,7 @@
+---
+apiVersion: v1
+kind: flag-properties
+
+name: BetaUser
+type: Boolean
+description: "determines whether Beta users can view something"

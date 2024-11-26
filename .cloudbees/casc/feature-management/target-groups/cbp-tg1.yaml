@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: target-group
+
+name: cbp-tg1
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: BetaUser
+        operator: is-true

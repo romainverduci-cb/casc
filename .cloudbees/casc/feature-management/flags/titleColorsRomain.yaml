@@ -9,5 +9,9 @@ labels:
   - label1
 
 availableValues:
+  - White
+  - Blue
+  - Green
+  - Yellow
 
 isPermanent: false

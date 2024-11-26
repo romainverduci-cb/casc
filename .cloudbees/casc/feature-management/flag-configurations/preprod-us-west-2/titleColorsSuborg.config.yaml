@@ -6,7 +6,10 @@ flag: titleColorsSuborg
 
 enabled: false
 
-defaultValue: valueWrittenInCode: true
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  valueWrittenInCode: true
 
 conditions:
   - allOf:
@@ -14,6 +17,6 @@ conditions:
           name: rox.app_release
           operator: regex
           operands:
-              - "11234"
+            - "11234"
     flagValue:
       valueWrittenInCode: true

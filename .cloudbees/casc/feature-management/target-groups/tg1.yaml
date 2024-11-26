@@ -13,3 +13,4 @@ conditions:
         operator: in-array
         operands:
             - aaa
+            - sadasd

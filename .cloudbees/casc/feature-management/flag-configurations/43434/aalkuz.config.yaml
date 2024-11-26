@@ -6,10 +6,13 @@ flag: aalkuz
 
 enabled: false
 
-defaultValue: - percentage: 0
-  from: 2024-10-18T10:07:00Z
-- percentage: 100
-  from: 2024-10-18T10:12:00Z
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  - percentage: 0
+    from: 2024-10-18T10:07:00Z
+  - percentage: 100
+    from: 2024-10-18T10:12:00Z
 
 conditions:
   - allOf:
@@ -17,6 +20,6 @@ conditions:
           name: rox.app_release
           operator: in-array
           operands:
-              - "23"
-              - "22"
+            - "23"
+            - "22"
     flagValue: true

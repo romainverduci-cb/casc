@@ -6,7 +6,8 @@ flag: asd
 
 enabled: false
 
+stickinessProperty: rox.distinct_id
+
 defaultValue: true
 
-conditions:
-  []
+conditions: []

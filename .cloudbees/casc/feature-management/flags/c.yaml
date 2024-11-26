@@ -8,5 +8,7 @@ description: c
 labels:
 
 availableValues:
+  - true
+  - false
 
 isPermanent: false

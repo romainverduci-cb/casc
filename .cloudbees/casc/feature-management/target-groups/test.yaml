@@ -4,7 +4,7 @@ kind: target-group
 
 name: test
 
-description: asd
+description: asd 123
 
 conditions:
   allOf:

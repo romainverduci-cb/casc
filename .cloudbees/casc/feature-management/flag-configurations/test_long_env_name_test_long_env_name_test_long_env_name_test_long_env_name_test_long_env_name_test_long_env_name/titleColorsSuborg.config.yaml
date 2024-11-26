@@ -6,7 +6,9 @@ flag: titleColorsSuborg
 
 enabled: false
 
-defaultValue: valueWrittenInCode: true
+stickinessProperty: rox.distinct_id
 
-conditions:
-  []
+defaultValue:
+  valueWrittenInCode: true
+
+conditions: []

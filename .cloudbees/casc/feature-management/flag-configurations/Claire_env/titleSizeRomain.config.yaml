@@ -6,7 +6,8 @@ flag: titleSizeRomain
 
 enabled: true
 
+stickinessProperty: rox.distinct_id
+
 defaultValue: 18
 
-conditions:
-  []
+conditions: []
