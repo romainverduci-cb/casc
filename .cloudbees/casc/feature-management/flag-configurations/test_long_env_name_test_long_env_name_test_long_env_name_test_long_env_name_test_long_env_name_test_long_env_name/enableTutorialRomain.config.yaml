@@ -1,0 +1,13 @@
+---
+apiVersion: v1
+kind: flag-configuration
+
+flag: enableTutorialRomain
+
+enabled: true
+
+stickinessProperty: stickinessvalu
+
+defaultValue: false
+
+conditions: []
