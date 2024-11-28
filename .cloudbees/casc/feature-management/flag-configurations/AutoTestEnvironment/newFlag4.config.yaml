@@ -1,0 +1,14 @@
+---
+apiVersion: v1
+kind: flag-configuration
+
+flag: newFlag4
+
+enabled: true
+
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  valueWrittenInCode: true
+
+conditions: []
