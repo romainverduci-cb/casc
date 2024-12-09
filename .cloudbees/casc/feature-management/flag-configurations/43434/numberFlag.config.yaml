@@ -8,6 +8,6 @@ enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: 16
+defaultValue: 17
 
 conditions: []
