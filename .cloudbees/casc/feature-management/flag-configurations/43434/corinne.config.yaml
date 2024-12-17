@@ -11,4 +11,10 @@ stickinessProperty: rox.distinct_id
 defaultValue:
   valueWrittenInCode: true
 
-conditions: []
+conditions:
+  - allOf:
+      - anyOf:
+          - group:
+              name: suborg
+    flagValue:
+      valueWrittenInCode: true
