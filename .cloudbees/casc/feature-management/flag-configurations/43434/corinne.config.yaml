@@ -15,6 +15,12 @@ conditions:
   - allOf:
       - anyOf:
           - group:
+              name: BetaUsers
+          - group:
+              name: BetaUsers
+          - group:
+              name: BetaUsers
+          - group:
               name: suborg
     flagValue:
       valueWrittenInCode: true
