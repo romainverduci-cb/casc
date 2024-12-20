@@ -4,7 +4,7 @@ kind: flag
 
 flag: corinne
 flagType: string
-description: some description
+description: 
 labels:
   -  all
   -  Hello
