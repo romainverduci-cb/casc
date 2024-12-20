@@ -1,10 +1,10 @@
 ---
-apiVersion: v1
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
 flag: corinne
 flagType: string
-description: 
+description: some description
 labels:
   -  all
   -  Hello
