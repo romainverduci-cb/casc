@@ -4,7 +4,7 @@ kind: flag
 
 flag: romain
 flagType: boolean
-description: 
+description: some description
 labels:
 
 availableValues:
