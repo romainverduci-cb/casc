@@ -1,7 +1,7 @@
 ---
-apiVersion: v1
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-properties
 
 name: test prop
 type: Boolean
-description: ""
+description: "some description"
