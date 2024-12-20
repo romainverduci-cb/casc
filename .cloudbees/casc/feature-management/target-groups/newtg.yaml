@@ -4,7 +4,7 @@ kind: target-group
 
 name: newtg
 
-description: 
+description: some description
 
 conditions:
   allOf:
