@@ -4,4 +4,4 @@ kind: flag-properties
 
 name: newcp
 type: Boolean
-description: ""
+description: "some description"
