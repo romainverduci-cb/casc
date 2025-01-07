@@ -10,9 +10,4 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: false
 
-conditions:
-  - allOf:
-      - anyOf:
-          - group:
-              name: test-inheritance
-    flagValue: false
+conditions: []
