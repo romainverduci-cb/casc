@@ -1,7 +1,0 @@
----
-apiVersion: v1
-kind: flag-properties
-
-name: Greg-prop-romaine-org
-type: String
-description: "test prop editasd asd"
