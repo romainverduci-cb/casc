@@ -20,9 +20,3 @@ conditions:
             - "123"
     flagValue:
       valueWrittenInCode: true
-  - allOf:
-      - property:
-          name: test prop
-          operator: is-true
-    flagValue:
-      valueWrittenInCode: true
