@@ -16,5 +16,8 @@ conditions:
       - anyOf:
           - group:
               name: suborg
+      - property:
+          name: test prop
+          operator: is-true
     flagValue:
       valueWrittenInCode: true
