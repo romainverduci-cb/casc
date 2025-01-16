@@ -14,6 +14,14 @@ defaultValue:
 conditions:
   - allOf:
       - property:
+          name: rox.app_release
+          operator: regex
+          operands:
+            - "1234"
+    flagValue:
+      valueWrittenInCode: true
+  - allOf:
+      - property:
           name: test prop
           operator: is-true
     flagValue:
