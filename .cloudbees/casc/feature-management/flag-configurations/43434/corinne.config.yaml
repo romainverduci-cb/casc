@@ -13,18 +13,10 @@ defaultValue:
 
 conditions:
   - allOf:
-      - anyOf:
-          - group:
-              name: BetaUsers
-          - group:
-              name: BetaUsers
-          - group:
-              name: BetaUsers
-          - group:
-              name: cbp-tg1
-          - group:
-              name: Early Access
-          - group:
-              name: suborg
+      - property:
+          name: rox.app_release
+          operator: regex
+          operands:
+            - "1212"
     flagValue:
       valueWrittenInCode: true
