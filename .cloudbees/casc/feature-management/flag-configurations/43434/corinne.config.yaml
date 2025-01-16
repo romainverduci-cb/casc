@@ -17,6 +17,6 @@ conditions:
           name: rox.app_release
           operator: regex
           operands:
-            - "1212"
+            - "12124"
     flagValue:
       valueWrittenInCode: true
