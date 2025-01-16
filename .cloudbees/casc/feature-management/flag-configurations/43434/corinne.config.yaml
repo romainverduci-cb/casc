@@ -4,7 +4,7 @@ kind: flag-configuration
 
 flag: corinne
 
-enabled: true
+enabled: false
 
 stickinessProperty: rox.distinct_id
 
@@ -20,6 +20,10 @@ conditions:
               name: BetaUsers
           - group:
               name: BetaUsers
+          - group:
+              name: cbp-tg1
+          - group:
+              name: Early Access
           - group:
               name: suborg
     flagValue:
