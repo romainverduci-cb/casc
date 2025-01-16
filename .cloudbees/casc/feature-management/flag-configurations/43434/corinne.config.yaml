@@ -17,14 +17,6 @@ conditions:
           name: rox.app_release
           operator: regex
           operands:
-            - "233232"
-    flagValue:
-      valueWrittenInCode: true
-  - allOf:
-      - property:
-          name: rox.app_release
-          operator: regex
-          operands:
             - "123"
     flagValue:
       valueWrittenInCode: true
