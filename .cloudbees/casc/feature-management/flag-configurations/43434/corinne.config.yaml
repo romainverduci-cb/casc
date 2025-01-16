@@ -14,14 +14,6 @@ defaultValue:
 conditions:
   - allOf:
       - property:
-          name: rox.distinct_id
-          operator: regex
-          operands:
-            - "123"
-    flagValue:
-      valueWrittenInCode: true
-  - allOf:
-      - property:
           name: test prop
           operator: is-true
     flagValue:
