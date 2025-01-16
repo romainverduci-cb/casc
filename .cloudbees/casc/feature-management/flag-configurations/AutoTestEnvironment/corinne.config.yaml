@@ -11,4 +11,10 @@ stickinessProperty: rox.distinct_id
 defaultValue:
   valueWrittenInCode: true
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: test prop
+          operator: is-false
+    flagValue:
+      valueWrittenInCode: true
