@@ -14,12 +14,6 @@ defaultValue:
 conditions:
   - allOf:
       - property:
-          name: test-cp
-          operator: is-true
-    flagValue:
-      valueWrittenInCode: true
-  - allOf:
-      - property:
           name: rox.app_release
           operator: regex
           operands:
