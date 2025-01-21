@@ -13,6 +13,12 @@ defaultValue:
 
 conditions:
   - allOf:
+      - flag:
+          name: romain
+          value: "true"
+    flagValue:
+      valueWrittenInCode: true
+  - allOf:
       - property:
           name: rox.app_release
           operator: regex
