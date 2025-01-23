@@ -1,0 +1,10 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: manual-tg05
+
+description: tg04 desc
+
+conditions:
+  anyOf: []
