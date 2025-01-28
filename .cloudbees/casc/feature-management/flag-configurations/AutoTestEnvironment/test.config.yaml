@@ -11,9 +11,4 @@ stickinessProperty: rox.distinct_id
 defaultValue:
   valueWrittenInCode: true
 
-conditions:
-  - allOf:
-      - anyOf:
-          - group:
-              name: test-delete
-    flagValue: false
+conditions: []
