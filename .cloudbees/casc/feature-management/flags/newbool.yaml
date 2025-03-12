@@ -2,16 +2,13 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: titleColorsRomain
-flagType: string
+flag: newbool
+flagType: boolean
 description: 
 labels:
-  - label1
 
 availableValues:
-  - White
-  - Blue
-  - Green
-  - Yellow
+  - true
+  - false
 
 isPermanent: false

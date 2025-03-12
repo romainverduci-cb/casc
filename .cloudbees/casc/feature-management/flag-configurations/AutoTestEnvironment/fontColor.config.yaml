@@ -2,9 +2,9 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: teststring
+flag: fontColor
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
@@ -17,12 +17,12 @@ conditions:
           name: rox.distinct_id
           operator: regex
           operands:
-            - "1234"
+            - "12345"
     flagValue:
       valueWrittenInCode: true
   - allOf:
       - property:
-          name: rox.distinct_id
+          name: rox.app_release
           operator: regex
           operands:
             - "123"

@@ -2,12 +2,14 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: cp-reference
+name: tg-referenced
 
 description: 
 
 conditions:
   allOf:
     - property:
-        name: GregDelete
-        operator: is-true
+        name: rox.app_release
+        operator: regex
+        operands:
+            - "123"

@@ -2,12 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: titleSizeRomain
+flag: testflag
 
-enabled: true
+enabled: false
 
-stickinessProperty: rox.distinct_id
+stickinessProperty: ""
 
-defaultValue: 18
+defaultValue: true
 
 conditions: []

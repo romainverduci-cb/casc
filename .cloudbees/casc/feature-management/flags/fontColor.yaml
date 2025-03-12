@@ -2,16 +2,11 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: titleColorsRomain
+flag: fontColor
 flagType: string
 description: 
 labels:
-  - label1
 
 availableValues:
-  - White
-  - Blue
-  - Green
-  - Yellow
 
 isPermanent: false

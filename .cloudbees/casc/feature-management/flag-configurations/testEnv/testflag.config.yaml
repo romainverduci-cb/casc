@@ -2,7 +2,7 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: corinne
+flag: testflag
 
 enabled: false
 
@@ -13,16 +13,9 @@ defaultValue:
 
 conditions:
   - allOf:
-      - flag:
-          name: romain
-          value: "true"
-    flagValue:
-      valueWrittenInCode: true
-  - allOf:
       - property:
           name: rox.app_release
           operator: regex
           operands:
-            - "123"
-    flagValue:
-      valueWrittenInCode: true
+            - "1234"
+    flagValue: false

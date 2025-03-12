@@ -4,7 +4,7 @@ kind: flag-configuration
 
 flag: numberFlag
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 

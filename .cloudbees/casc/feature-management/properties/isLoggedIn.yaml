@@ -1,7 +1,0 @@
----
-apiVersion: v1
-kind: flag-properties
-
-name: isLoggedIn
-type: Boolean
-description: "Phone users who are either logged in or beta users."

@@ -2,12 +2,15 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: cp-reference
+name: tg-referencing
 
 description: 
 
 conditions:
   allOf:
     - property:
-        name: GregDelete
+        name: test-cp
         operator: is-true
+    - anyOf:
+        - group:
+            id: 8bd054d0-5b60-44a4-aa35-95e3f6bb3d5c

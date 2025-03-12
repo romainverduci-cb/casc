@@ -1,13 +1,13 @@
 ---
-apiVersion: v1
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: titleColorsSuborg
+flag: booleanFlagRomain
 
 enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: White
+defaultValue: true
 
 conditions: []

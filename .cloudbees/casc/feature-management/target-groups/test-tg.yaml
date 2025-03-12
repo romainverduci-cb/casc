@@ -2,12 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: tg-reference
+name: test-tg
 
 description: 
 
 conditions:
   allOf:
-    - anyOf:
-        - group:
-            name: cp-reference
+    - property:
+        name: feature-flag-enabled
+        operator: is-true

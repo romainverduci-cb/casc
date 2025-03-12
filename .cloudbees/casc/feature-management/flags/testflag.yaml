@@ -2,14 +2,13 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: aalkuz
+flag: testflag
 flagType: boolean
 description: 
 labels:
-  - label1
 
 availableValues:
   - true
   - false
 
-isPermanent: false
+isPermanent: true
