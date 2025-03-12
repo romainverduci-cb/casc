@@ -19,4 +19,8 @@ conditions:
       - flag:
           name: numberFlag
           value: "16"
-    flagValue: true
+    flagValue:
+      - percentage: 0
+        from: 2025-03-12T14:49:00Z
+      - percentage: 100
+        from: 2025-03-12T14:54:00Z
