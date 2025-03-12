@@ -16,9 +16,7 @@ defaultValue:
 
 conditions:
   - allOf:
-      - property:
-          name: rox.now
-          operator: before
-          operands:
-            - "2025-03-11T22:00:00.000Z"
+      - flag:
+          name: numberFlag
+          value: "16"
     flagValue: true
