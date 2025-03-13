@@ -1,0 +1,16 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag
+
+flag: lkNum
+flagType: number
+description: qe
+labels:
+  - str3
+  - label1
+
+availableValues:
+  - 1
+  - 2
+
+isPermanent: false
