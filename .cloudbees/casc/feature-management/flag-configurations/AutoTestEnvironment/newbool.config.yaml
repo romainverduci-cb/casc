@@ -4,23 +4,10 @@ kind: flag-configuration
 
 flag: newbool
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue:
-  - percentage: 53
-    option: true
-  - percentage: 47
-    option: false
+defaultValue: true
 
-conditions:
-  - allOf:
-      - flag:
-          name: numberFlag
-          value: "16"
-    flagValue:
-      - percentage: 0
-        from: 2025-03-12T14:49:00Z
-      - percentage: 100
-        from: 2025-03-12T14:54:00Z
+conditions: []
