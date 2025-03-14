@@ -1,0 +1,21 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: lkNum
+
+enabled: false
+
+stickinessProperty: rox.distinct_id
+
+defaultValue:
+  valueWrittenInCode: true
+
+conditions:
+  - allOf:
+      - property:
+          name: rox.app_release
+          operator: semver-eq
+          operands:
+            - "1"
+    flagValue: 1
