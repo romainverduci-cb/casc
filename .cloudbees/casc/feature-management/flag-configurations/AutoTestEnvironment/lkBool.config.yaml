@@ -12,14 +12,14 @@ defaultValue: false
 
 conditions:
   - allOf:
-      - allOf:
+      - anyOf:
           - group:
-              name: BegotestAudit
+              name: cp-reference
     flagValue: false
   - allOf:
       - flag:
           name: asd
-          value: "true"
+          value: "false"
     flagValue: false
   - allOf:
       - property:
