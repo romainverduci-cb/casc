@@ -1,0 +1,30 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: flag-configuration
+
+flag: lkBool
+
+enabled: false
+
+stickinessProperty: rox.distinct_id
+
+defaultValue: true
+
+conditions:
+  - allOf:
+      - property:
+          name: rox.language
+          operator: in-array
+          operands:
+            - ' en'
+    flagValue: false
+  - allOf:
+      - anyOf:
+          - group:
+              name: cp-reference
+    flagValue: false
+  - allOf:
+      - flag:
+          name: booleanFlagRomain
+          value: "false"
+    flagValue: true
