@@ -14,7 +14,7 @@ conditions:
   - allOf:
       - property:
           name: rox.screen_height
-          operator: eq
+          operator: ne
           operands:
             - qwe
     flagValue: false
