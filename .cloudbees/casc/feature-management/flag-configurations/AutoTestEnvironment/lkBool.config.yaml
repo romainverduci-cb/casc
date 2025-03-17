@@ -10,4 +10,11 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: true
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: rox.app_release
+          operator: semver-eq
+          operands:
+            - "123"
+    flagValue: false
