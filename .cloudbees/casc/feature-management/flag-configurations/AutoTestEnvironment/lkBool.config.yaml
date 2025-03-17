@@ -16,5 +16,5 @@ conditions:
           name: rox.screen_width
           operator: eq
           operands:
-            - 23qwe
+            - 23qwey
     flagValue: false
