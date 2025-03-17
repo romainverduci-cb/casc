@@ -12,6 +12,11 @@ defaultValue: false
 
 conditions:
   - allOf:
+      - anyOf:
+          - group:
+              name: BegotestAudit
+    flagValue: false
+  - allOf:
       - flag:
           name: asd
           value: "true"
