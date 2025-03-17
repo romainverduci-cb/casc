@@ -12,9 +12,7 @@ defaultValue: true
 
 conditions:
   - allOf:
-      - property:
-          name: rox.screen_width
-          operator: eq
-          operands:
-            - w
+      - anyOf:
+          - group:
+              name: BegotestAudit
     flagValue: false
