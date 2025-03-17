@@ -13,11 +13,6 @@ defaultValue: true
 conditions:
   - allOf:
       - flag:
-          name: asd
-          value: "true"
-    flagValue: false
-  - allOf:
-      - flag:
           name: booleanFlagRomain
           value: "false"
     flagValue: false
