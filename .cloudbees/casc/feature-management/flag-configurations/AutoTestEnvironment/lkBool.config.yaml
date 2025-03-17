@@ -17,6 +17,7 @@ conditions:
           operator: in-array
           operands:
             - ' en'
+            - ' ua'
     flagValue: false
   - allOf:
       - anyOf:
