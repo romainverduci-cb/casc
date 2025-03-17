@@ -27,4 +27,4 @@ conditions:
       - flag:
           name: booleanFlagRomain
           value: "false"
-    flagValue: false
+    flagValue: true
