@@ -8,23 +8,16 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: false
+defaultValue: true
 
 conditions:
-  - allOf:
-      - anyOf:
-          - group:
-              name: cp-reference
-    flagValue: false
   - allOf:
       - flag:
           name: asd
           value: "false"
     flagValue: false
   - allOf:
-      - property:
-          name: rox.screen_width
-          operator: eq
-          operands:
-            - qwe
+      - flag:
+          name: booleanFlagRomain
+          value: "false"
     flagValue: false
