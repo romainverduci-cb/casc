@@ -18,12 +18,20 @@ conditions:
           operands:
             - ' en'
             - ' ua'
-    flagValue: false
+    flagValue:
+      - percentage: 50
+        option: true
+      - percentage: 50
+        option: false
   - allOf:
       - anyOf:
           - group:
               name: cp-reference
-    flagValue: false
+    flagValue:
+      - percentage: 0
+        from: 2025-03-17T13:37:00Z
+      - percentage: 100
+        from: 2025-03-17T13:42:00Z
   - allOf:
       - flag:
           name: booleanFlagRomain
