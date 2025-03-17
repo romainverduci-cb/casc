@@ -12,9 +12,7 @@ defaultValue: true
 
 conditions:
   - allOf:
-      - anyOf:
+      - allOf:
           - group:
               name: BegotestAudit
-          - group:
-              name: cp-reference
     flagValue: false
