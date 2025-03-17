@@ -12,7 +12,8 @@ defaultValue: true
 
 conditions:
   - allOf:
-      - anyOf:
-          - group:
-              name: test-delete
+      - not:
+          allOf:
+            - group:
+                name: cp-reference
     flagValue: false
