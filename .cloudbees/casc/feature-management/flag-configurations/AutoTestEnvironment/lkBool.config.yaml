@@ -13,10 +13,10 @@ defaultValue: true
 conditions:
   - anyOf:
       - property:
-          name: rox.screen_width
+          name: rox.screen_height
           operator: eq
           operands:
-            - qwe
+            - 22
       - anyOf:
           - group:
               id: fc0a12f8-ab3b-4dec-b1bd-7b7ffd6c234f
