@@ -12,22 +12,6 @@ defaultValue: false
 
 conditions:
   - allOf:
-      - property:
-          name: rox.language
-          operator: in-array
-          operands:
-            - ' asdasd'
-    flagValue:
-      - percentage: 50
-        option: true
-      - percentage: 50
-        option: false
-  - allOf:
-      - anyOf:
-          - group:
-              name: cp-reference
-    flagValue: true
-  - allOf:
       - flag:
           name: booleanFlagRomain
           value: "false"
