@@ -12,6 +12,11 @@ defaultValue: false
 
 conditions:
   - allOf:
+      - flag:
+          name: asd
+          value: "true"
+    flagValue: false
+  - allOf:
       - property:
           name: rox.screen_width
           operator: eq
