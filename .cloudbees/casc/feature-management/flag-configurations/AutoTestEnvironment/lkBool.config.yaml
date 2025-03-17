@@ -14,5 +14,5 @@ conditions:
   - allOf:
       - flag:
           name: asd
-          value: "false"
+          value: "true"
     flagValue: false
