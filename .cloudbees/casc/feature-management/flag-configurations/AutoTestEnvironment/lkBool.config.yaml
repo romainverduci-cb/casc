@@ -13,8 +13,8 @@ defaultValue: true
 conditions:
   - allOf:
       - property:
-          name: rox.screen_width
-          operator: ne
+          name: rox.screen_height
+          operator: eq
           operands:
-            - qwe2
+            - qwe
     flagValue: false
