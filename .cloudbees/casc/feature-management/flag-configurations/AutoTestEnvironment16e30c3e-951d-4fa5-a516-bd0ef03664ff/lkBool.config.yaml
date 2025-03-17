@@ -8,10 +8,23 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue:
-  - percentage: 0
-    from: 2025-03-17T10:32:00Z
-  - percentage: 100
-    from: 2025-03-17T10:37:00Z
+defaultValue: true
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: rox.language
+          operator: in-array
+          operands:
+            - ' en'
+    flagValue: false
+  - allOf:
+      - anyOf:
+          - group:
+              name: cp-reference
+    flagValue: false
+  - allOf:
+      - flag:
+          name: booleanFlagRomain
+          value: "false"
+    flagValue: true
