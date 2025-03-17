@@ -16,8 +16,7 @@ conditions:
           name: rox.language
           operator: in-array
           operands:
-            - ' en'
-            - ' ua'
+            - ' asdasd'
     flagValue:
       - percentage: 50
         option: true
