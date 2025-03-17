@@ -13,6 +13,13 @@ defaultValue: true
 conditions:
   - allOf:
       - property:
+          name: rox.screen_width
+          operator: eq
+          operands:
+            - 123123
+    flagValue: false
+  - allOf:
+      - property:
           name: rox.app_release
           operator: semver-eq
           operands:
