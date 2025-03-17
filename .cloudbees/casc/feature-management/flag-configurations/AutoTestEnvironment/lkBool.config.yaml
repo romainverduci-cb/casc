@@ -12,13 +12,12 @@ defaultValue: true
 
 conditions:
   - allOf:
-      - property:
-          name: rox.app_release
-          operator: semver-eq
-          operands:
-            - "123"
-    flagValue:
-      - percentage: 50
-        option: true
-      - percentage: 50
-        option: false
+      - flag:
+          name: asd
+          value: "true"
+    flagValue: false
+  - allOf:
+      - flag:
+          name: booleanFlagRomain
+          value: "false"
+    flagValue: false
