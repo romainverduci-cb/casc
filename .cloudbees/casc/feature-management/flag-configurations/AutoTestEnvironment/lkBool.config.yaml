@@ -12,9 +12,9 @@ defaultValue: true
 
 conditions:
   - allOf:
-      - flag:
-          name: asd
-          value: "false"
+      - anyOf:
+          - group:
+              name: cp-reference
     flagValue: false
   - allOf:
       - flag:
