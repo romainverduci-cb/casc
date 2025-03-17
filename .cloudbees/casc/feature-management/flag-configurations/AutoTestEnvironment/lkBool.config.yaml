@@ -11,13 +11,6 @@ stickinessProperty: rox.distinct_id
 defaultValue: true
 
 conditions:
-  - allOf:
-      - property:
-          name: rox.screen_width
-          operator: eq
-          operands:
-            - qq2
-    flagValue: false
   - anyOf:
       - property:
           name: rox.screen_height
