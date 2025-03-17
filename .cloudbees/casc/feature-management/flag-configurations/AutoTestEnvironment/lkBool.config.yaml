@@ -17,4 +17,10 @@ conditions:
           operator: eq
           operands:
             - qwe
+      - anyOf:
+          - group:
+              id: fc0a12f8-ab3b-4dec-b1bd-7b7ffd6c234f
+      - flag:
+          name: enableTutorialRomain
+          value: "false"
     flagValue: false
