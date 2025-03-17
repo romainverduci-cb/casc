@@ -10,4 +10,11 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: false
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: rox.screen_width
+          operator: eq
+          operands:
+            - qwe
+    flagValue: false
