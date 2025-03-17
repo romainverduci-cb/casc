@@ -12,6 +12,13 @@ defaultValue: true
 
 conditions:
   - allOf:
+      - property:
+          name: rox.language
+          operator: in-array
+          operands:
+            - ' en'
+    flagValue: false
+  - allOf:
       - anyOf:
           - group:
               name: cp-reference
