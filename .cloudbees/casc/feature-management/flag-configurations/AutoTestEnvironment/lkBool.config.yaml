@@ -14,7 +14,7 @@ conditions:
   - allOf:
       - property:
           name: rox.screen_width
-          operator: eq
+          operator: ne
           operands:
             - qwe2
     flagValue: false
