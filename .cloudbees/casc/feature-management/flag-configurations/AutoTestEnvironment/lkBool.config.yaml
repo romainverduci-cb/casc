@@ -10,21 +10,4 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: true
 
-conditions:
-  - anyOf:
-      - property:
-          name: rox.screen_height
-          operator: eq
-          operands:
-            - 22
-      - anyOf:
-          - group:
-              id: fc0a12f8-ab3b-4dec-b1bd-7b7ffd6c234f
-      - flag:
-          name: enableTutorialRomain
-          value: "false"
-    flagValue:
-      - percentage: 0
-        from: 2025-03-17T13:18:00Z
-      - percentage: 100
-        from: 2025-03-17T13:23:00Z
+conditions: []
