@@ -12,7 +12,9 @@ defaultValue: true
 
 conditions:
   - allOf:
-      - flag:
-          name: booleanFlagRomain
-          value: "false"
+      - property:
+          name: rox.screen_width
+          operator: eq
+          operands:
+            - qwe
     flagValue: false
