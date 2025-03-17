@@ -18,7 +18,7 @@ conditions:
           operands:
             - "123"
     flagValue:
-      - percentage: 51
+      - percentage: 50
         option: true
-      - percentage: 49
+      - percentage: 50
         option: false
