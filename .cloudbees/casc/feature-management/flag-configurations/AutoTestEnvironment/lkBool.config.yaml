@@ -14,5 +14,5 @@ conditions:
   - allOf:
       - flag:
           name: booleanFlagRomain
-          value: "false"
+          value: "true"
     flagValue: true
