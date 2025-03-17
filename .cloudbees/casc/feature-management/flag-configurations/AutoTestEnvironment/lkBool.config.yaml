@@ -12,7 +12,7 @@ defaultValue: true
 
 conditions:
   - allOf:
-      - allOf:
+      - anyOf:
           - group:
-              name: BegotestAudit
+              name: test-delete
     flagValue: false
