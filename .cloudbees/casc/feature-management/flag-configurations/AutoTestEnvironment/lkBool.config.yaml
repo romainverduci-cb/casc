@@ -15,4 +15,6 @@ conditions:
       - anyOf:
           - group:
               name: BegotestAudit
+          - group:
+              name: cp-reference
     flagValue: false
