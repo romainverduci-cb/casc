@@ -27,11 +27,7 @@ conditions:
       - anyOf:
           - group:
               name: cp-reference
-    flagValue:
-      - percentage: 0
-        from: 2025-03-17T13:37:00Z
-      - percentage: 100
-        from: 2025-03-17T13:42:00Z
+    flagValue: true
   - allOf:
       - flag:
           name: booleanFlagRomain
