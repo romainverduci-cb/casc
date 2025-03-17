@@ -9,10 +9,7 @@ enabled: false
 stickinessProperty: rox.distinct_id
 
 defaultValue:
-  - percentage: 50
-    option: true
-  - percentage: 50
-    option: false
+  valueWrittenInCode: true
 
 conditions:
   - allOf:
