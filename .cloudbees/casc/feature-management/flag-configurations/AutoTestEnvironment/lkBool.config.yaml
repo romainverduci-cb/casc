@@ -17,4 +17,8 @@ conditions:
           operator: semver-eq
           operands:
             - "123"
-    flagValue: false
+    flagValue:
+      - percentage: 50
+        option: true
+      - percentage: 50
+        option: false
