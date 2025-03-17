@@ -8,11 +8,10 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: false
+defaultValue:
+  - percentage: 0
+    from: 2025-03-17T13:42:00Z
+  - percentage: 100
+    from: 2025-03-17T13:47:00Z
 
-conditions:
-  - allOf:
-      - flag:
-          name: booleanFlagRomain
-          value: "true"
-    flagValue: true
+conditions: []
