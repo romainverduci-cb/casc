@@ -23,4 +23,8 @@ conditions:
       - flag:
           name: enableTutorialRomain
           value: "false"
-    flagValue: false
+    flagValue:
+      - percentage: 0
+        from: 2025-03-17T13:18:00Z
+      - percentage: 100
+        from: 2025-03-17T13:23:00Z
