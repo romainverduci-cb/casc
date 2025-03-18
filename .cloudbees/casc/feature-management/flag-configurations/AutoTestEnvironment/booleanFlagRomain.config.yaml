@@ -14,9 +14,6 @@ defaultValue:
 conditions:
   - allOf:
       - property:
-          name: rox.now
-          operator: in-between
-          operands:
-            - "2025-03-17T23:00:00.000Z"
-            - "2025-03-18T23:00:00.000Z"
+          name: test-cp
+          operator: is-true
     flagValue: false
