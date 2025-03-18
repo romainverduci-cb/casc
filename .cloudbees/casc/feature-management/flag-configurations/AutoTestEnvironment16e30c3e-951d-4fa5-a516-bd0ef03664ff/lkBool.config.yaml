@@ -4,7 +4,7 @@ kind: flag-configuration
 
 flag: lkBool
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
@@ -13,18 +13,8 @@ defaultValue: true
 conditions:
   - allOf:
       - property:
-          name: rox.language
-          operator: in-array
+          name: rox.app_release
+          operator: semver-eq
           operands:
-            - ' en'
+            - "2222"
     flagValue: false
-  - allOf:
-      - anyOf:
-          - group:
-              name: cp-reference
-    flagValue: false
-  - allOf:
-      - flag:
-          name: booleanFlagRomain
-          value: "false"
-    flagValue: true
