@@ -12,6 +12,11 @@ defaultValue: true
 
 conditions:
   - allOf:
+      - flag:
+          name: asd
+          value: "true"
+    flagValue: false
+  - allOf:
       - property:
           name: rox.app_release
           operator: semver-eq
