@@ -8,18 +8,6 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue:
-  valueWrittenInCode: true
+defaultValue: 1
 
-conditions:
-  - allOf:
-      - property:
-          name: rox.app_release
-          operator: semver-eq
-          operands:
-            - "1"
-    flagValue:
-      - percentage: 50
-        option: 1
-      - percentage: 50
-        option: 2
+conditions: []
