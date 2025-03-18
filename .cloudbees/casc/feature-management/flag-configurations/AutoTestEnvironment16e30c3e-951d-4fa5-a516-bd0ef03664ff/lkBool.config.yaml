@@ -16,5 +16,5 @@ conditions:
           name: rox.app_release
           operator: semver-eq
           operands:
-            - "2222"
+            - "2"
     flagValue: false
