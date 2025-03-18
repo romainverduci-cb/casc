@@ -16,5 +16,5 @@ conditions:
           name: rox.app_release
           operator: semver-eq
           operands:
-            - www22222
+            - "2"
     flagValue: false
