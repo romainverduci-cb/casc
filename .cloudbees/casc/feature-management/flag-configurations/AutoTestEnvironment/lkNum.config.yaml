@@ -4,10 +4,11 @@ kind: flag-configuration
 
 flag: lkNum
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: 2
+defaultValue:
+  valueWrittenInCode: true
 
 conditions: []
