@@ -17,4 +17,8 @@ conditions:
           operator: ne
           operands:
             - 123
-    flagValue: true
+    flagValue:
+      - percentage: 0
+        from: 2025-03-18T09:40:00Z
+      - percentage: 100
+        from: 2025-03-18T09:45:00Z
