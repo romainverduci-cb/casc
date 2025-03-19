@@ -8,12 +8,18 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue:
-  valueWrittenInCode: true
+defaultValue: false
 
 conditions:
   - allOf:
+      - anyOf:
+          - group:
+              name: BegotestAudit
+          - group:
+              name: cp-reference
       - property:
-          name: test-cp
-          operator: is-true
-    flagValue: false
+          name: rox.screen_width
+          operator: eq
+          operands:
+            - 123
+    flagValue: true
