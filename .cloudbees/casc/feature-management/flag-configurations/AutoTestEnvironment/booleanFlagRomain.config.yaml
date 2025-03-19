@@ -10,4 +10,10 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: true
 
-conditions: []
+conditions:
+  - allOf:
+      - not:
+          allOf:
+            - group:
+                name: BegotestAudit
+    flagValue: false
