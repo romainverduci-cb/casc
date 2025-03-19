@@ -8,6 +8,10 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: false
+defaultValue:
+  - percentage: 60
+    option: true
+  - percentage: 40
+    option: false
 
 conditions: []
