@@ -14,9 +14,9 @@ conditions:
   - allOf:
       - property:
           name: rox.distinct_id
-          operator: in-array
+          operator: ne
           operands:
-            - ' asdasd'
+            - ' 1'
     flagValue: false
   - allOf:
       - property:
