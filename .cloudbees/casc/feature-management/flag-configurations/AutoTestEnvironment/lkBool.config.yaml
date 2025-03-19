@@ -14,7 +14,7 @@ conditions:
   - allOf:
       - property:
           name: lkBoolean
-          operator: is-true
+          operator: is-undefined
     flagValue: false
   - allOf:
       - property:
