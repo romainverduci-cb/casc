@@ -13,18 +13,6 @@ defaultValue: true
 conditions:
   - allOf:
       - property:
-          name: lkBoolean
-          operator: is-undefined
-      - property:
-          name: lkBoolean
-          operator: is-false
-    flagValue:
-      - percentage: 0
-        from: 2025-03-19T14:04:00Z
-      - percentage: 100
-        from: 2025-03-19T14:09:00Z
-  - allOf:
-      - property:
           name: rox.platform
           operator: regex
           operands:
