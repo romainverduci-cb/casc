@@ -10,15 +10,4 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: true
 
-conditions:
-  - allOf:
-      - property:
-          name: rox.screen_width
-          operator: eq
-          operands:
-            - 123
-    flagValue:
-      - percentage: 50
-        option: true
-      - percentage: 50
-        option: false
+conditions: []
