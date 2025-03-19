@@ -13,10 +13,8 @@ defaultValue: true
 conditions:
   - allOf:
       - property:
-          name: rox.distinct_id
-          operator: ne
-          operands:
-            - ' 1'
+          name: lkBoolean
+          operator: is-true
     flagValue: false
   - allOf:
       - property:
