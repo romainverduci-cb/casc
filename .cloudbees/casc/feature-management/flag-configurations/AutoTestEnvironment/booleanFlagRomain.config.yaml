@@ -8,7 +8,11 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: true
+defaultValue:
+  - percentage: 50
+    option: true
+  - percentage: 50
+    option: false
 
 conditions:
   - allOf:
@@ -17,8 +21,4 @@ conditions:
           operator: eq
           operands:
             - 123
-    flagValue:
-      - percentage: 50
-        option: true
-      - percentage: 50
-        option: false
+    flagValue: false
