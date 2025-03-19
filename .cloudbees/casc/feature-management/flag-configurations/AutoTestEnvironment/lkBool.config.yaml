@@ -10,4 +10,16 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: true
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: lkBoolean
+          operator: is-true
+    flagValue: false
+  - allOf:
+      - property:
+          name: rox.platform
+          operator: regex
+          operands:
+            - "89"
+    flagValue: false
