@@ -12,7 +12,20 @@ defaultValue: true
 
 conditions:
   - allOf:
-      - allOf:
-          - group:
-              name: BegotestAudit
+      - property:
+          name: rox.now
+          operator: before
+          operands:
+            - "2025-03-19T23:00:00.000Z"
+    flagValue:
+      - percentage: 0
+        from: 2025-03-19T13:50:00Z
+      - percentage: 100
+        from: 2025-03-19T13:55:00Z
+  - allOf:
+      - property:
+          name: rox.screen_height
+          operator: ne
+          operands:
+            - 123
     flagValue: false
