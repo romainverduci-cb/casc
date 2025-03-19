@@ -17,4 +17,4 @@ conditions:
           operator: eq
           operands:
             - 123
-    flagValue: false
+    flagValue: true
