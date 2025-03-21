@@ -16,5 +16,12 @@ conditions:
           name: rox.screen_width
           operator: eq
           operands:
-            - 1.111212e+06
+            - 112
+    flagValue: false
+  - allOf:
+      - property:
+          name: rox.screen_width
+          operator: eq
+          operands:
+            - 11
     flagValue: false
