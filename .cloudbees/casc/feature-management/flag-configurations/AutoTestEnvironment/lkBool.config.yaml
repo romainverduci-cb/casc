@@ -14,14 +14,14 @@ conditions:
   - allOf:
       - property:
           name: rox.screen_width
-          operator: eq
+          operator: ne
           operands:
-            - 112
+            - 22
     flagValue: false
   - allOf:
       - property:
           name: rox.screen_width
           operator: eq
           operands:
-            - 11
+            - 111
     flagValue: false
