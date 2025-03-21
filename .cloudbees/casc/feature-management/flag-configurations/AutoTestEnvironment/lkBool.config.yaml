@@ -16,5 +16,5 @@ conditions:
           name: rox.screen_width
           operator: eq
           operands:
-            - 111
+            - 1.111212e+06
     flagValue: false
