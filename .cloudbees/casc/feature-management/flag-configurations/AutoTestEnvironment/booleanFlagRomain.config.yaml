@@ -4,7 +4,7 @@ kind: flag-configuration
 
 flag: booleanFlagRomain
 
-enabled: true
+enabled: false
 
 stickinessProperty: rox.distinct_id
 
@@ -16,7 +16,7 @@ conditions:
           name: rox.screen_width
           operator: eq
           operands:
-            - 1234
+            - 12345
     flagValue: false
   - allOf:
       - property:
