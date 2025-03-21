@@ -4,7 +4,7 @@ kind: flag-configuration
 
 flag: lkBool
 
-enabled: true
+enabled: false
 
 stickinessProperty: rox.distinct_id
 
@@ -16,5 +16,5 @@ conditions:
           name: rox.screen_width
           operator: eq
           operands:
-            - 11
+            - 111
     flagValue: false
