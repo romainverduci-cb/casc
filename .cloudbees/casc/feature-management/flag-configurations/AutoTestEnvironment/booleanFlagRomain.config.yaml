@@ -13,20 +13,15 @@ defaultValue: true
 conditions:
   - allOf:
       - property:
-          name: newcp
-          operator: is-true
-    flagValue: false
-  - allOf:
-      - property:
           name: rox.screen_width
-          operator: ne
+          operator: eq
           operands:
-            - 2
+            - 1234
     flagValue: false
   - allOf:
       - property:
           name: rox.screen_width
           operator: eq
           operands:
-            - 1
+            - 123
     flagValue: false
