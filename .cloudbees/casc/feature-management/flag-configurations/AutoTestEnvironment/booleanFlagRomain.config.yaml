@@ -16,12 +16,5 @@ conditions:
           name: rox.screen_width
           operator: eq
           operands:
-            - 12345
-    flagValue: false
-  - allOf:
-      - property:
-          name: rox.screen_width
-          operator: eq
-          operands:
             - 123
     flagValue: false
