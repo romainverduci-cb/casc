@@ -12,11 +12,9 @@ defaultValue: false
 
 conditions:
   - allOf:
-      - property:
-          name: rox.screen_width
-          operator: eq
-          operands:
-            - 22
+      - flag:
+          name: asd
+          value: "true"
     flagValue:
       - percentage: 0
         from: 2025-03-24T15:52:00Z
