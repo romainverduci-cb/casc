@@ -8,7 +8,7 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: true
+defaultValue: false
 
 conditions:
   - allOf:
@@ -16,5 +16,9 @@ conditions:
           name: rox.screen_width
           operator: eq
           operands:
-            - 123
-    flagValue: false
+            - 22
+    flagValue:
+      - percentage: 0
+        from: 2025-03-24T15:52:00Z
+      - percentage: 100
+        from: 2025-03-26T15:57:00Z
