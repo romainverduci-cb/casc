@@ -14,5 +14,7 @@ conditions:
   - allOf:
       - anyOf:
           - group:
+              name: asdasd
+          - group:
               name: test-delete
     flagValue: false
