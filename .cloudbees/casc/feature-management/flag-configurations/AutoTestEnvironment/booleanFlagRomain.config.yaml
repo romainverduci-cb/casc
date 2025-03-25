@@ -10,13 +10,4 @@ stickinessProperty: rox.distinct_id
 
 defaultValue: false
 
-conditions:
-  - allOf:
-      - flag:
-          name: asd
-          value: "true"
-    flagValue:
-      - percentage: 0
-        from: 2025-03-24T15:52:00Z
-      - percentage: 100
-        from: 2025-03-26T15:57:00Z
+conditions: []
