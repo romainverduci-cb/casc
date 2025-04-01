@@ -13,15 +13,9 @@ defaultValue: false
 conditions:
   - allOf:
       - property:
-          name: string prop
+          name: rox.platform
           operator: in-array
           operands:
-            - ' 2'
-            - ' 4'
-            - ' 6'
-    flagValue: false
-  - allOf:
-      - anyOf:
-          - group:
-              name: test-delete
+            - ' sdas'
+            - ' asdasd'
     flagValue: false
