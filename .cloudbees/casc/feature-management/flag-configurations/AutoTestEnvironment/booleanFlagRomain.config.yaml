@@ -14,8 +14,7 @@ conditions:
   - allOf:
       - property:
           name: rox.platform
-          operator: in-array
+          operator: regex
           operands:
-            - ' sdas'
-            - ' asdasd'
+            - "123"
     flagValue: false
