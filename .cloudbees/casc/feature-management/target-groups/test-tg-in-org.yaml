@@ -1,0 +1,13 @@
+---
+apiVersion: featuremanagement.cloudbees.io/v1alpha1
+kind: target-group
+
+name: test-tg-in-org
+
+description: 
+
+conditions:
+  allOf:
+    - property:
+        name: test-cp-in-org
+        operator: is-true
