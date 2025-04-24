@@ -7,7 +7,7 @@ name: test-delete
 description: 
 
 conditions:
-  anyOf:
+  allOf:
     - property:
         name: rox.app_release
         operator: regex

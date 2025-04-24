@@ -2,12 +2,14 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: test-tg-in-org
+name: asdasdsd
 
 description: 
 
 conditions:
-  allOf:
+  anyOf:
     - property:
-        name: test-cp-in-org
-        operator: is-true
+        name: rox.screen_width
+        operator: eq
+        operands:
+            - 123123

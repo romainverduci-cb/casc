@@ -2,12 +2,13 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: romapp-flag-2
+flag: c
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: true
+defaultValue:
+  valueWrittenInCode: true
 
 conditions: []

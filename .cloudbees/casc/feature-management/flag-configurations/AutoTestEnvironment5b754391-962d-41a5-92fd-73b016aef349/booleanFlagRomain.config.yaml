@@ -2,19 +2,17 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: lkBool
+flag: booleanFlagRomain
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: true
+defaultValue: false
 
 conditions:
   - allOf:
-      - property:
-          name: rox.app_release
-          operator: semver-eq
-          operands:
-            - "2"
+      - anyOf:
+          - group:
+              name: test-delete
     flagValue: false

@@ -12,8 +12,10 @@ defaultValue: 4
 
 conditions:
   - allOf:
-      - anyOf:
-          - group:
-              name: suborg
+      - property:
+          name: string-cp
+          operator: in-array
+          operands:
+            - "1"
     flagValue:
       valueWrittenInCode: true

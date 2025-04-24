@@ -2,14 +2,14 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: test-tg-blabla
+name: te
 
 description: 
 
 conditions:
   allOf:
     - property:
-        name: rox.screen_width
-        operator: eq
+        name: rox.now
+        operator: before
         operands:
-            - 123
+            - "2025-04-07T22:00:00.000Z"
