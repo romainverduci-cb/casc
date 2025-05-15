@@ -13,6 +13,14 @@ defaultValue: 4
 conditions:
   - allOf:
       - property:
+          name: number-prop
+          operator: eq
+          operands:
+            - abcd
+    flagValue:
+      valueWrittenInCode: true
+  - allOf:
+      - property:
           name: string-cp
           operator: in-array
           operands:
