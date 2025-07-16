@@ -11,4 +11,12 @@ stickinessProperty: rox.distinct_id
 defaultValue:
   valueWrittenInCode: true
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: rox.screen_width
+          operator: eq
+          operands:
+            - 123
+    flagValue:
+      valueWrittenInCode: true
