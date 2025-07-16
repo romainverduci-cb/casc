@@ -8,8 +8,7 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue:
-  valueWrittenInCode: true
+defaultValue: 1
 
 conditions:
   - allOf:
