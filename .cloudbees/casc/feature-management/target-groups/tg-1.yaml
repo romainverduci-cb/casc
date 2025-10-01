@@ -9,7 +9,5 @@ description:
 conditions:
   allOf:
     - property:
-        name: rox.screen_width
-        operator: eq
-        operands:
-            - 123
+        name: cp-1
+        operator: is-true
