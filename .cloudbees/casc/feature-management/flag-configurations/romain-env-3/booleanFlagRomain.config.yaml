@@ -4,17 +4,16 @@ kind: flag-configuration
 
 flag: booleanFlagRomain
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: false
+defaultValue:
+  valueWrittenInCode: true
 
 conditions:
   - allOf:
-      - property:
-          name: rox.screen_width
-          operator: eq
-          operands:
-            - 123
+      - anyOf:
+          - group:
+              name: tg-3
     flagValue: false

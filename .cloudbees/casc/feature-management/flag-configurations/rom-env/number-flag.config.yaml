@@ -2,9 +2,9 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: toDelete
+flag: number-flag
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 

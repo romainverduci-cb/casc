@@ -2,13 +2,18 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: toDelete
+flag: enableTutorialRomain
 
-enabled: false
+enabled: true
 
 stickinessProperty: rox.distinct_id
 
 defaultValue:
   valueWrittenInCode: true
 
-conditions: []
+conditions:
+  - allOf:
+      - anyOf:
+          - group:
+              name: tg-2
+    flagValue: false

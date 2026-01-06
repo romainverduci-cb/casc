@@ -2,14 +2,14 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: target-group
 
-name: tg-1
+name: t
 
 description: 
 
 conditions:
   allOf:
     - property:
-        name: rox.screen_width
+        name: number-prop
         operator: eq
         operands:
-            - "123"
+            - "1234"

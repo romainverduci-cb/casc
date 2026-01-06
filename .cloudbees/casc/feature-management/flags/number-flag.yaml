@@ -2,13 +2,14 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: toDelete
-flagType: boolean
+flag: number-flag
+flagType: number
 description: ""
 labels:
+  - label2
 
 availableValues:
-  - "true"
-  - "false"
+  - "456"
+  - "1345"
 
 isPermanent: false
