@@ -12,11 +12,9 @@ defaultValue: false
 
 conditions:
   - allOf:
-      - property:
-          name: rox.screen_width
-          operator: eq
-          operands:
-            - 1234
+      - anyOf:
+          - group:
+              name: t
     flagValue: true
   - allOf:
       - flag:
