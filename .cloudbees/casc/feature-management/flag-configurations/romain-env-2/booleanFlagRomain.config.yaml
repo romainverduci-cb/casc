@@ -12,6 +12,13 @@ defaultValue: false
 
 conditions:
   - allOf:
+      - property:
+          name: string-prop
+          operator: regex
+          operands:
+            - "123"
+    flagValue: false
+  - allOf:
       - anyOf:
           - group:
               name: t
