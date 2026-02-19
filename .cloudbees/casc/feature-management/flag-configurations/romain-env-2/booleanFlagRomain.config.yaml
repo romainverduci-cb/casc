@@ -19,7 +19,7 @@ conditions:
   - allOf:
       - flag:
           name: enableTutorialRomain
-          value: "false"
+          value: "true"
     flagValue: false
   - allOf:
       - anyOf:
