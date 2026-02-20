@@ -16,7 +16,7 @@ conditions:
           name: string-prop
           operator: regex
           operands:
-            - "123"
+            - "1234"
     flagValue: false
   - allOf:
       - anyOf:
