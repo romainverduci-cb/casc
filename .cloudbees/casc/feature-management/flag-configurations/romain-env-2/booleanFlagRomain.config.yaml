@@ -12,9 +12,11 @@ defaultValue: false
 
 conditions:
   - allOf:
-      - flag:
-          name: namespace1.flag
-          value: "true"
+      - property:
+          name: string-prop
+          operator: in-array
+          operands:
+            - hello
     flagValue: false
   - allOf:
       - anyOf:
