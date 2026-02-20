@@ -14,9 +14,9 @@ conditions:
   - allOf:
       - property:
           name: string-prop
-          operator: regex
+          operator: in-array
           operands:
-            - "1234"
+            - hello
     flagValue: false
   - allOf:
       - anyOf:
