@@ -12,4 +12,4 @@ conditions:
         name: number-prop
         operator: gte
         operands:
-            - 24
+            - 245.2
