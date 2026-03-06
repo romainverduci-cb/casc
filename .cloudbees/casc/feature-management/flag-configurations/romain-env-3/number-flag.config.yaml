@@ -4,11 +4,17 @@ kind: flag-configuration
 
 flag: number-flag
 
-enabled: true
+enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue:
-  valueWrittenInCode: true
+defaultValue: 456
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: number-prop
+          operator: gte
+          operands:
+            - 1
+    flagValue: 777
