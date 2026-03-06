@@ -17,4 +17,4 @@ conditions:
           operator: gte
           operands:
             - 1
-    flagValue: 456
+    flagValue: 777
