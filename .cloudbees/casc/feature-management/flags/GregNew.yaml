@@ -6,6 +6,7 @@ flag: GregNew
 flagType: boolean
 description: ""
 labels:
+  - u
 
 availableValues:
   - "true"
