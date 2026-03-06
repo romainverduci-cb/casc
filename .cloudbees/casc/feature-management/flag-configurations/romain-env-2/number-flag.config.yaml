@@ -17,5 +17,4 @@ conditions:
           operator: gte
           operands:
             - 1
-    flagValue:
-      valueWrittenInCode: true
+    flagValue: 456
