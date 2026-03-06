@@ -4,9 +4,10 @@ kind: flag
 
 flag: number-flag
 flagType: number
-description: ""
+description: hello
 labels:
   - label2
+  - label3
 
 availableValues:
   - "456"
