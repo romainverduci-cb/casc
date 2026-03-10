@@ -16,7 +16,7 @@ conditions:
       - flag:
           name: number-flag
           value: "1345"
-    flagValue: 18
+    flagValue: 1e+33
   - allOf:
       - anyOf:
           - group:
