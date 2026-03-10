@@ -13,6 +13,18 @@ defaultValue:
 
 conditions:
   - allOf:
+      - flag:
+          name: number-flag
+          value: "1345"
+    flagValue:
+      valueWrittenInCode: true
+  - allOf:
+      - anyOf:
+          - group:
+              name: gregTG
+    flagValue:
+      valueWrittenInCode: true
+  - allOf:
       - property:
           name: string-prop
           operator: in-array
