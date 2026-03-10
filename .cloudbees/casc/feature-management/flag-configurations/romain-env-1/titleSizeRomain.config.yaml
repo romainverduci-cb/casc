@@ -16,8 +16,7 @@ conditions:
       - flag:
           name: number-flag
           value: "1345"
-    flagValue:
-      valueWrittenInCode: true
+    flagValue: 18
   - allOf:
       - anyOf:
           - group:
