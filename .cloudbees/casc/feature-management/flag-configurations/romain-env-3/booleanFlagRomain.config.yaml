@@ -9,11 +9,9 @@ enabled: true
 stickinessProperty: rox.distinct_id
 
 defaultValue:
-  valueWrittenInCode: true
+  - percentage: 0
+    from: 2026-03-10T14:17:00Z
+  - percentage: 100
+    from: 2026-03-10T14:22:00Z
 
-conditions:
-  - allOf:
-      - anyOf:
-          - group:
-              name: tg-3
-    flagValue: false
+conditions: []
