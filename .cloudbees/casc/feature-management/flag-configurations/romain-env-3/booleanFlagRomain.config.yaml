@@ -9,9 +9,9 @@ enabled: true
 stickinessProperty: rox.distinct_id
 
 defaultValue:
-  - percentage: 50
-    option: true
-  - percentage: 50
-    option: false
+  - percentage: 0
+    from: 2026-03-11T14:14:00Z
+  - percentage: 100
+    from: 2026-03-11T14:19:00Z
 
 conditions: []
