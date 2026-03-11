@@ -8,6 +8,12 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: I've been modified
+defaultValue: I've also been modified again making this a long string
 
-conditions: []
+conditions:
+  - allOf:
+      - property:
+          name: rox.screen_width
+          operator: is-undefined
+    flagValue:
+      valueWrittenInCode: true
