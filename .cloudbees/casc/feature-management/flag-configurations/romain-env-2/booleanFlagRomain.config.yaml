@@ -8,7 +8,11 @@ enabled: true
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: false
+defaultValue:
+  - percentage: 50
+    option: true
+  - percentage: 50
+    option: false
 
 conditions:
   - allOf:
@@ -18,13 +22,6 @@ conditions:
           operands:
             - hello
     flagValue: false
-  - allOf:
-      - anyOf:
-          - group:
-              name: t
-          - group:
-              name: tg-3
-    flagValue: true
   - allOf:
       - flag:
           name: enableTutorialRomain
