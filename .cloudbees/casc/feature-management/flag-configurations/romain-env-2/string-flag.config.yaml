@@ -8,7 +8,7 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: I've also been modified again making this a long string
+defaultValue: 'hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello '
 
 conditions:
   - allOf:
