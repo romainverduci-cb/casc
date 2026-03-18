@@ -31,4 +31,8 @@ conditions:
       - anyOf:
           - group:
               name: t
-    flagValue: false
+    flagValue:
+      - percentage: 0
+        from: 2026-03-18T13:20:00Z
+      - percentage: 100
+        from: 2026-03-18T13:25:00Z
