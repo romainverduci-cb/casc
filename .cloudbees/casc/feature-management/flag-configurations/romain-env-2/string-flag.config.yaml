@@ -13,18 +13,9 @@ defaultValue: 'hello hello hello hello hello hello hello hello hello hello hello
 conditions:
   - allOf:
       - property:
-          name: rox.screen_width
-          operator: is-undefined
+          name: teststickiness1
+          operator: eq
+          operands:
+            - 2
     flagValue:
-      - percentage: 16
-        option: I've also been modified again making this a long string
-      - percentage: 16
-        option: I've been modified
-      - percentage: 16
-        option: I've also been modified
-      - percentage: 16
-        option: abcd
-      - percentage: 16
-        option: efgh
-      - percentage: 20
-        option: 'hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello '
+      valueWrittenInCode: true
