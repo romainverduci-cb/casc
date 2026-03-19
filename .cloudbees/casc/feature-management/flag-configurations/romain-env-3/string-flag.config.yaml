@@ -8,6 +8,18 @@ enabled: false
 
 stickinessProperty: rox.distinct_id
 
-defaultValue: abcd
+defaultValue:
+  - percentage: 16
+    option: I've also been modified again making this a long string
+  - percentage: 16
+    option: I've been modified
+  - percentage: 16
+    option: I've also been modified
+  - percentage: 16
+    option: abcd
+  - percentage: 16
+    option: efgh
+  - percentage: 20
+    option: 'hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello hello '
 
 conditions: []
