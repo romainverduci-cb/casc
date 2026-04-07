@@ -2,7 +2,7 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: String with value
+flag: rom-string
 flagType: string
 description: ""
 labels:

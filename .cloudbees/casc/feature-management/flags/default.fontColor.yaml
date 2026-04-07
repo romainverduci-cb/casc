@@ -2,15 +2,15 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: number-flag
-flagType: number
-description: hello
+flag: default.fontColor
+flagType: string
+description: ""
 labels:
-  - label2
-  - label3
 
 availableValues:
-  - "456"
-  - "1345"
+  - Red
+  - Green
+  - Blue
+  - Black
 
 isPermanent: false

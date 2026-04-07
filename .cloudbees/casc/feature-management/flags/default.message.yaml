@@ -2,14 +2,12 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: GregNew
-flagType: boolean
+flag: default.message
+flagType: string
 description: ""
 labels:
-  - u
 
 availableValues:
-  - "true"
-  - "false"
+  - This is the default message; try changing some flag values!
 
 isPermanent: false

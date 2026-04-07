@@ -2,14 +2,13 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: namespace1.flag
+flag: default.showMessage
 flagType: boolean
 description: ""
 labels:
-  - label2
 
 availableValues:
-  - "true"
   - "false"
+  - "true"
 
 isPermanent: false

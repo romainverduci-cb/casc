@@ -2,7 +2,7 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: gregOrgFlag
+flag: message
 flagType: boolean
 description: ""
 labels:

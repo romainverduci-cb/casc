@@ -2,13 +2,13 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag
 
-flag: GregFlag
-flagType: boolean
+flag: rom-number
+flagType: number
 description: ""
 labels:
 
 availableValues:
-  - "true"
-  - "false"
+  - "1"
+  - "2"
 
 isPermanent: false

@@ -2,7 +2,7 @@
 apiVersion: featuremanagement.cloudbees.io/v1alpha1
 kind: flag-configuration
 
-flag: string-flag
+flag: rom-number
 
 enabled: false
 
@@ -13,8 +13,12 @@ defaultValue:
 
 conditions:
   - allOf:
-      - flag:
-          name: booleanFlagRomain
-          value: "true"
-    flagValue:
-      valueWrittenInCode: true
+      - property:
+          name: cp-1
+          operator: is-true
+    flagValue: 1
+  - allOf:
+      - anyOf:
+          - group:
+              name: tg-1
+    flagValue: 2
