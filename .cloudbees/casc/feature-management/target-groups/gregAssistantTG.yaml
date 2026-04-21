@@ -4,10 +4,10 @@ kind: target-group
 
 name: gregAssistantTG
 
-description: made by AI
+description: 
 
 conditions:
   allOf:
     - property:
         name: testgreg
-        operator: is-true
+        operator: is-false
