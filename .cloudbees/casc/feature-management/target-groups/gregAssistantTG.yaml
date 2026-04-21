@@ -10,4 +10,4 @@ conditions:
   allOf:
     - property:
         name: testgreg
-        operator: is-true
+        operator: is-false
